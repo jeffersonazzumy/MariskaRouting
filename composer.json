@@ -1,0 +1,25 @@
+{
+  "name": "mariska/router",
+  "description": "web development router",
+  "keywords": ["router", "route", "web","php router"],
+  "version": "1.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jefferson Silva",
+      "email": "jeffersonazzumy@gmail.com"
+    }
+  ],
+
+  "require": {
+    "php" : "^7.3.0"
+  },
+
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Mariska\\App\\" : "App",
+      "Mariska\\Router\\" : "Src"
+    }
+  }
+}
